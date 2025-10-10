@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  color: rgb(89, 19, 101);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.dig {
+  color: rgb(17, 9, 9);
+  font-size: 100px;
+}
+
+.text {
+  font-size: 30px;
+}
+
+#buttons {
+  margin-top: 40px;
+}
+
+.btn {
+  width: 100px;
+  border-radius: 10%;
+}
+
+#start {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(233, 199, 207);
+}
+
+#stop {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(233, 199, 207);
+}
+
+#reset {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(233, 199, 207);
+}
